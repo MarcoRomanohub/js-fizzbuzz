@@ -1,0 +1,38 @@
+.debug{
+  border: 1px solid black;
+}
+body{
+  background-color: rgb(159, 30, 185);
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.boxContainer{
+  width: 80%;
+  text-align: center ;
+}
+.box{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumblue;
+  border: 3px solid rgba(0, 0, 0, 0);
+  margin: 5px;
+  box-shadow: 1px 1px 10px; 
+}
+.box:hover{ 
+  border-radius: 50%;
+}
+.fizz{
+  background-color: aqua;
+}
+.buzz{
+  background-color: yellow;
+}
+.fizzbuzz{
+  background-color: red;
+}
